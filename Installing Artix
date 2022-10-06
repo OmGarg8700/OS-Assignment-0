@@ -1,0 +1,9 @@
+lsblk                             # to see disk partioning
+
+ls /sys/firmware/efi/efivars      # you should see some stuff coming up
+
+ping google.com                   # it should return responses, means you are connected to internet
+
+fdisk /dev/sda
+
+# make 3 partitions
